@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-mask-arguments
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import maskArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@esm/index.mjs';
+var maskArguments = require( '@stdlib/utils-mask-arguments' );
 ```
 
 #### maskArguments( fcn, mask\[, thisArg] )
@@ -121,16 +139,11 @@ var out = bar( 1, 2, 3 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
-import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@esm/index.mjs';
-import maskArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@esm/index.mjs';
+```javascript
+var filledarrayBy = require( '@stdlib/array-filled-by' );
+var Uint8Array = require( '@stdlib/array-uint8' );
+var add = require( '@stdlib/math-base-ops-add' );
+var maskArguments = require( '@stdlib/utils-mask-arguments' );
 
 function fill( i ) {
     return i;
@@ -159,10 +172,6 @@ for ( i = 1; i < x.length; i++ ) {
     // Update the mask:
     mask[ i-1 ] = 0;
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -203,7 +212,7 @@ for ( i = 1; i < x.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -257,21 +266,24 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/utils-mask-arguments/tree/deno
+[deno-readme]: https://github.com/stdlib-js/utils-mask-arguments/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/utils-mask-arguments/tree/umd
+[umd-readme]: https://github.com/stdlib-js/utils-mask-arguments/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/utils-mask-arguments/tree/esm
+[esm-readme]: https://github.com/stdlib-js/utils-mask-arguments/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/utils-mask-arguments/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-mask-arguments/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/utils/filter-arguments]: https://github.com/stdlib-js/utils-filter-arguments/tree/esm
+[@stdlib/utils/filter-arguments]: https://github.com/stdlib-js/utils-filter-arguments
 
-[@stdlib/utils/reject-arguments]: https://github.com/stdlib-js/utils-reject-arguments/tree/esm
+[@stdlib/utils/reject-arguments]: https://github.com/stdlib-js/utils-reject-arguments
 
-[@stdlib/utils/reorder-arguments]: https://github.com/stdlib-js/utils-reorder-arguments/tree/esm
+[@stdlib/utils/reorder-arguments]: https://github.com/stdlib-js/utils-reorder-arguments
 
-[@stdlib/utils/reverse-arguments]: https://github.com/stdlib-js/utils-reverse-arguments/tree/esm
+[@stdlib/utils/reverse-arguments]: https://github.com/stdlib-js/utils-reverse-arguments
 
 <!-- </related-links> -->
 
