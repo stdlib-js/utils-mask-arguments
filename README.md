@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import maskArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@deno/mod.js';
+import maskArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@v0.2.0-deno/mod.js';
 ```
 
 #### maskArguments( fcn, mask\[, thisArg] )
@@ -125,7 +125,7 @@ var out = bar( 1, 2, 3 );
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
 import add from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-add@deno/mod.js';
-import maskArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@deno/mod.js';
+import maskArguments from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@v0.2.0-deno/mod.js';
 
 function fill( i ) {
     return i;
