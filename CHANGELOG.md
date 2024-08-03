@@ -2,40 +2,6 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
-
-## Unreleased (2024-08-01)
-
-<section class="commits">
-
-### Commits
-
-<details>
-
--   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
-
-</details>
-
-</section>
-
-<!-- /.commits -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Athan Reines
-
-</section>
-
-<!-- /.contributors -->
-
-</section>
-
-<!-- /.release -->
-
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
@@ -60,7 +26,31 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-No changes reported for this release.
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`cacca61`](https://github.com/stdlib-js/stdlib/commit/cacca61bc884c5c1805716236733cf378d0ce955) - **docs:** update links _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -70,7 +60,62 @@ No changes reported for this release.
 
 ## 0.1.0 (2023-09-23)
 
-No changes reported for this release.
+<section class="features">
+
+### Features
+
+-   [`e62998d`](https://github.com/stdlib-js/stdlib/commit/e62998da4db17224516ba67fdc0d04a4baec83c9) - increase minimum TypeScript version
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`2de0332`](https://github.com/stdlib-js/stdlib/commit/2de03325135024e1a1922d8bb166a95d6efde18d) - update import path for `Collection` type definition
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`e62998d`](https://github.com/stdlib-js/stdlib/commit/e62998da4db17224516ba67fdc0d04a4baec83c9): increase minimum TypeScript version
+
+</section>
+
+<!-- /.breaking-changes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2de0332`](https://github.com/stdlib-js/stdlib/commit/2de03325135024e1a1922d8bb166a95d6efde18d) - **fix:** update import path for `Collection` type definition _(by Athan Reines)_
+-   [`e62998d`](https://github.com/stdlib-js/stdlib/commit/e62998da4db17224516ba67fdc0d04a4baec83c9) - **feat:** increase minimum TypeScript version _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
