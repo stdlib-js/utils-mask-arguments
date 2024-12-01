@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,16 +16,25 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { Collection } from '@stdlib/types/array';
 
 /**
-* Return a function that applies arguments to a provided function according to a specified mask.
+* Returns a function that applies arguments to a provided function according to a specified mask.
 *
-* @module @stdlib/utils-mask-arguments
+* ## Notes
+*
+* -   Only those arguments having a truthy mask value are applied to a provided function.
+*
+* @param fcn - input function
+* @param mask - argument mask
+* @param thisArg - function context
+* @returns function wrapper
 *
 * @example
-* var maskArguments = require( '@stdlib/utils-mask-arguments' );
-*
 * function foo( a, b ) {
 *     return [ a, b ];
 * }
@@ -35,12 +44,9 @@
 * var out = bar( 1, 2, 3 );
 * // returns [ 1, 3 ]
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function maskArguments( fcn: Function, mask: Collection, thisArg?: any ): Function;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = maskArguments;
