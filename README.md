@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+maskArguments = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-mask-arguments/tags). For example,
+
+```javascript
 maskArguments = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@v0.2.3-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var maskArguments = require( 'path/to/vendor/umd/utils-mask-arguments/index.js' 
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -152,7 +157,7 @@ var out = bar( 1, 2, 3 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-base-add@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-mask-arguments@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
