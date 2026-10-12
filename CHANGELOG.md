@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-05)
+## Unreleased (2026-10-12)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`ed03196`](https://github.com/stdlib-js/stdlib/commit/ed031969ed59525f9ce7418f9375a26fb70a4a89) - ensure valid indexing of arguments array [(#15922)](https://github.com/stdlib-js/stdlib/pull/15922)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#15921](https://github.com/stdlib-js/stdlib/issues/15921)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,7 @@
 
 <details>
 
+-   [`ed03196`](https://github.com/stdlib-js/stdlib/commit/ed031969ed59525f9ce7418f9375a26fb70a4a89) - **fix:** ensure valid indexing of arguments array [(#15922)](https://github.com/stdlib-js/stdlib/pull/15922) _(by Manit Roy)_
 -   [`19216fd`](https://github.com/stdlib-js/stdlib/commit/19216fd118234a4dd38792e9e1d8f982617a5795) - **bench:** refactor to use string interpolation in `utils` [(#11409)](https://github.com/stdlib-js/stdlib/pull/11409) _(by Karan Anand, Athan Reines)_
 
 </details>
@@ -24,10 +47,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Manit Roy
 
 </section>
 
